@@ -1,0 +1,107 @@
+* {
+    font-family: "roboto";
+}
+
+.home-container {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.home-header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sun-icon {
+    height: 25px;
+    width: 25px;
+    color: white;
+}
+
+.moon-icon {
+    height: 25px;
+    width: 25px;
+    color: black;
+}
+
+.icon-container {
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.task-container {
+    width: 100vw;
+    min-height: 90vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.task-inner-conatier {
+    margin: 20px 0px 20px 0px;
+}
+
+.task-heading {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.task-function {
+    margin-bottom: 40px;
+}
+
+.add-task-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.input-add {
+    height: 40px;
+    width: 70%;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.add-input-box {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.dark-text {
+    color: lightblue;
+}
+
+.light-text {
+    color: black;
+}
+
+.add-task-btn {
+    height: 38px;
+    width: 90px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logo-container {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

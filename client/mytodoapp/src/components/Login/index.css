@@ -1,0 +1,104 @@
+* {
+    font-family: "roboto";
+}
+
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.header-container {
+    width: 100vw;
+    padding: 30px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: black;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.link-style {
+    text-decoration: none;
+}
+
+.sign-up-btn {
+    height: 38px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(14, 13, 13);
+    color: lightblue;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.login-form-container {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.welcome-text {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 4px 0px 10px 2px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.label-text {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.input-box {
+    height: 35px;
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.error-msg {
+    color: rgb(218, 23, 23);
+    padding-top: 8px;
+    font-size: 16px;
+}
